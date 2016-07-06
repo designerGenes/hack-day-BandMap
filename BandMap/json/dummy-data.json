@@ -1,0 +1,53 @@
+{
+    "zip": 90028,
+    "events": [
+        {
+            "name": "Young Empires Big Fat Party",
+            "leadArtist": "Young Empires",
+            "venue": "The Egyptian Theater",
+            "doorsOpenAt": "0900",
+            "website": "http://egyptiantheater.com",
+            "address": "6712 Hollywood Blvd, Los Angeles CA 90028",
+            "coordinates": {
+                "long": -118.336505,
+                "lat": 34.100906
+            }
+        },
+        {
+            "name": "Pre-4th of July Bash w/ DJ Damage",
+            "leadArtist": "DJ Damage",
+            "venue": "Playhouse Hollywood",
+            "doorsOpenAt": "0700",
+            "website": "http://playhousehollywood.com",
+            "address": "6506 Hollywood Blvd, Los Angeles, CA 90028",
+            "coordinates": {
+                "long": -118.331462,
+                "lat": 34.101539
+            }
+        },
+        {
+            "name": "Jon Bellion with Son Real & Blaque Keyz",
+            "leadArtist": "Jon Bellion",
+            "venue": "The Fonda Theater",
+            "doorsOpenAt": "0800",
+            "website": "http://fondatheater.com",
+            "address": "6126 Hollywood Blvd, Los Angeles, CA 90028",
+            "coordinates": {
+                "long": -118.323280,
+                "lat": 34.101490
+            }
+        },
+        {
+            "name": "FUTURE w/ DJ Esco, Draws & Sincere Show",
+            "venue": "Lure Nightclub",
+            "leadArtist": "Future",
+            "doorsOpenAt": "0600",
+            "website": "http://lurehollywood.com",
+            "address": "1439 Ivar Ave, Los Angeles, CA 90028",
+            "coordinates": {
+                "long": -118.329142,
+                "lat": 34.097261
+            }
+        }
+    ]
+}

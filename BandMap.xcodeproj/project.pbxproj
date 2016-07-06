@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2ECF74E71518B3B5B944225 /* Pods_BandMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFFA309B895B61572BD6E4 /* Pods_BandMap.framework */; };
 		FEE0E0501D24968F00701F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E04F1D24968F00701F9F /* AppDelegate.swift */; };
-		FEE0E0521D24968F00701F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E0511D24968F00701F9F /* ViewController.swift */; };
+		FEE0E0521D24968F00701F9F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E0511D24968F00701F9F /* MainViewController.swift */; };
 		FEE0E0551D24968F00701F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E0531D24968F00701F9F /* Main.storyboard */; };
 		FEE0E0571D24968F00701F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E0561D24968F00701F9F /* Assets.xcassets */; };
-		FEE0E05A1D24968F00701F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E0581D24968F00701F9F /* LaunchScreen.storyboard */; };
+		FEE0E0621D2496A200701F9F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E0611D2496A200701F9F /* Podfile */; };
+		FEE0E0681D2497C400701F9F /* BEBAS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E0671D2497C400701F9F /* BEBAS.TTF */; };
+		FEE0E06E1D249B0A00701F9F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE0E0691D249B0A00701F9F /* Alamofire.framework */; };
+		FEE0E06F1D249B0A00701F9F /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE0E06A1D249B0A00701F9F /* ChameleonFramework.framework */; };
+		FEE0E0701D249B0A00701F9F /* DKChainableAnimationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE0E06B1D249B0A00701F9F /* DKChainableAnimationKit.framework */; };
+		FEE0E0711D249B0A00701F9F /* SwiftString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE0E06C1D249B0A00701F9F /* SwiftString.framework */; };
+		FEE0E0721D249B0A00701F9F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE0E06D1D249B0A00701F9F /* SwiftyJSON.framework */; };
+		FEE0E0741D249B2400701F9F /* EventObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E0731D249B2400701F9F /* EventObject.swift */; };
+		FEE0E0761D249C1800701F9F /* fullReusables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E0751D249C1800701F9F /* fullReusables.swift */; };
+		FEE0E0781D249D6A00701F9F /* EventDetailsOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E0771D249D6A00701F9F /* EventDetailsOverlay.xib */; };
+		FEE0E07A1D249D7E00701F9F /* EventDetailsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E0791D249D7E00701F9F /* EventDetailsOverlay.swift */; };
+		FEE0E07D1D24B58B00701F9F /* ZipObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E07C1D24B58B00701F9F /* ZipObject.swift */; };
+		FEE0E07F1D24B88800701F9F /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E07E1D24B88800701F9F /* extensions.swift */; };
+		FEE0E0831D24BC2E00701F9F /* json in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E0821D24BC2E00701F9F /* json */; };
+		FEE0E0861D25616100701F9F /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E0851D25616100701F9F /* enums.swift */; };
+		FEE0E0891D2562D200701F9F /* css in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E0881D2562D200701F9F /* css */; };
+		FEE0E08B1D25631100701F9F /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E08A1D25631100701F9F /* colors.swift */; };
+		FEE0E08E1D2597BF00701F9F /* EventBannerOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE0E08D1D2597BF00701F9F /* EventBannerOverlay.xib */; };
+		FEE0E0911D2597DD00701F9F /* EventBannerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E0901D2597DD00701F9F /* EventBannerOverlay.swift */; };
+		FEE0E0941D259ECD00701F9F /* OverlayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0E0931D259ECD00701F9F /* OverlayDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		132D01BD26140EEDD4DBB7BC /* Pods-BandMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BandMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BandMap/Pods-BandMap.debug.xcconfig"; sourceTree = "<group>"; };
+		515535BA60E6CC66CE60AEC1 /* Pods-BandMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BandMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-BandMap/Pods-BandMap.release.xcconfig"; sourceTree = "<group>"; };
+		DBCFFA309B895B61572BD6E4 /* Pods_BandMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BandMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE0E04C1D24968F00701F9F /* BandMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE0E04F1D24968F00701F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEE0E0511D24968F00701F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEE0E0511D24968F00701F9F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FEE0E0541D24968F00701F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEE0E0561D24968F00701F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FEE0E0591D24968F00701F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEE0E05B1D24968F00701F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE0E0611D2496A200701F9F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FEE0E0671D2497C400701F9F /* BEBAS.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEBAS.TTF; sourceTree = "<group>"; };
+		FEE0E0691D249B0A00701F9F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BandMap-dbkqpcqlbsdhaygkkfxthtmktwsq/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		FEE0E06A1D249B0A00701F9F /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BandMap-dbkqpcqlbsdhaygkkfxthtmktwsq/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
+		FEE0E06B1D249B0A00701F9F /* DKChainableAnimationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKChainableAnimationKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BandMap-dbkqpcqlbsdhaygkkfxthtmktwsq/Build/Products/Debug-iphonesimulator/DKChainableAnimationKit/DKChainableAnimationKit.framework"; sourceTree = "<group>"; };
+		FEE0E06C1D249B0A00701F9F /* SwiftString.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftString.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BandMap-dbkqpcqlbsdhaygkkfxthtmktwsq/Build/Products/Debug-iphonesimulator/SwiftString/SwiftString.framework"; sourceTree = "<group>"; };
+		FEE0E06D1D249B0A00701F9F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BandMap-dbkqpcqlbsdhaygkkfxthtmktwsq/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		FEE0E0731D249B2400701F9F /* EventObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObject.swift; sourceTree = "<group>"; };
+		FEE0E0751D249C1800701F9F /* fullReusables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fullReusables.swift; sourceTree = "<group>"; };
+		FEE0E0771D249D6A00701F9F /* EventDetailsOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailsOverlay.xib; sourceTree = "<group>"; };
+		FEE0E0791D249D7E00701F9F /* EventDetailsOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsOverlay.swift; sourceTree = "<group>"; };
+		FEE0E07C1D24B58B00701F9F /* ZipObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipObject.swift; sourceTree = "<group>"; };
+		FEE0E07E1D24B88800701F9F /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		FEE0E0821D24BC2E00701F9F /* json */ = {isa = PBXFileReference; lastKnownFileType = folder; path = json; sourceTree = "<group>"; };
+		FEE0E0851D25616100701F9F /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		FEE0E0881D2562D200701F9F /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		FEE0E08A1D25631100701F9F /* colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		FEE0E08D1D2597BF00701F9F /* EventBannerOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventBannerOverlay.xib; sourceTree = "<group>"; };
+		FEE0E0901D2597DD00701F9F /* EventBannerOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBannerOverlay.swift; sourceTree = "<group>"; };
+		FEE0E0931D259ECD00701F9F /* OverlayDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE0E06E1D249B0A00701F9F /* Alamofire.framework in Frameworks */,
+				FEE0E06F1D249B0A00701F9F /* ChameleonFramework.framework in Frameworks */,
+				FEE0E0701D249B0A00701F9F /* DKChainableAnimationKit.framework in Frameworks */,
+				FEE0E0711D249B0A00701F9F /* SwiftString.framework in Frameworks */,
+				FEE0E0721D249B0A00701F9F /* SwiftyJSON.framework in Frameworks */,
+				C2ECF74E71518B3B5B944225 /* Pods_BandMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36D3C58B0BCF9900EA8941C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				132D01BD26140EEDD4DBB7BC /* Pods-BandMap.debug.xcconfig */,
+				515535BA60E6CC66CE60AEC1 /* Pods-BandMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94DE305AE206602B9CA0D98D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E0691D249B0A00701F9F /* Alamofire.framework */,
+				FEE0E06A1D249B0A00701F9F /* ChameleonFramework.framework */,
+				FEE0E06B1D249B0A00701F9F /* DKChainableAnimationKit.framework */,
+				FEE0E06C1D249B0A00701F9F /* SwiftString.framework */,
+				FEE0E06D1D249B0A00701F9F /* SwiftyJSON.framework */,
+				DBCFFA309B895B61572BD6E4 /* Pods_BandMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEE0E0431D24968F00701F9F = {
 			isa = PBXGroup;
 			children = (
+				FEE0E0611D2496A200701F9F /* Podfile */,
 				FEE0E04E1D24968F00701F9F /* BandMap */,
 				FEE0E04D1D24968F00701F9F /* Products */,
+				36D3C58B0BCF9900EA8941C2 /* Pods */,
+				94DE305AE206602B9CA0D98D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +128,98 @@
 			isa = PBXGroup;
 			children = (
 				FEE0E04F1D24968F00701F9F /* AppDelegate.swift */,
-				FEE0E0511D24968F00701F9F /* ViewController.swift */,
-				FEE0E0531D24968F00701F9F /* Main.storyboard */,
 				FEE0E0561D24968F00701F9F /* Assets.xcassets */,
-				FEE0E0581D24968F00701F9F /* LaunchScreen.storyboard */,
 				FEE0E05B1D24968F00701F9F /* Info.plist */,
+				FEE0E0641D24972200701F9F /* Storyboards */,
+				FEE0E0651D24972700701F9F /* SupportingFiles */,
+				FEE0E0631D24971500701F9F /* ViewControllers */,
 			);
 			path = BandMap;
+			sourceTree = "<group>";
+		};
+		FEE0E0631D24971500701F9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FEE0E0641D24972200701F9F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E08C1D25890B00701F9F /* MainViewController */,
+				FEE0E0921D259EBD00701F9F /* Overlays */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		FEE0E0651D24972700701F9F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E0881D2562D200701F9F /* css */,
+				FEE0E0851D25616100701F9F /* enums.swift */,
+				FEE0E08A1D25631100701F9F /* colors.swift */,
+				FEE0E07E1D24B88800701F9F /* extensions.swift */,
+				FEE0E0661D24977300701F9F /* Fonts */,
+				FEE0E0751D249C1800701F9F /* fullReusables.swift */,
+				FEE0E0821D24BC2E00701F9F /* json */,
+				FEE0E0841D24BEC500701F9F /* LocationObjects */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FEE0E0661D24977300701F9F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E0671D2497C400701F9F /* BEBAS.TTF */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		FEE0E07B1D249E7300701F9F /* EventDetailsOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E0771D249D6A00701F9F /* EventDetailsOverlay.xib */,
+				FEE0E0791D249D7E00701F9F /* EventDetailsOverlay.swift */,
+			);
+			name = EventDetailsOverlay;
+			sourceTree = "<group>";
+		};
+		FEE0E0841D24BEC500701F9F /* LocationObjects */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E0731D249B2400701F9F /* EventObject.swift */,
+				FEE0E07C1D24B58B00701F9F /* ZipObject.swift */,
+			);
+			name = LocationObjects;
+			sourceTree = "<group>";
+		};
+		FEE0E08C1D25890B00701F9F /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E0531D24968F00701F9F /* Main.storyboard */,
+				FEE0E0511D24968F00701F9F /* MainViewController.swift */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		FEE0E08F1D2597C200701F9F /* EventBannerOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E08D1D2597BF00701F9F /* EventBannerOverlay.xib */,
+				FEE0E0901D2597DD00701F9F /* EventBannerOverlay.swift */,
+			);
+			name = EventBannerOverlay;
+			sourceTree = "<group>";
+		};
+		FEE0E0921D259EBD00701F9F /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				FEE0E07B1D249E7300701F9F /* EventDetailsOverlay */,
+				FEE0E08F1D2597C200701F9F /* EventBannerOverlay */,
+				FEE0E0931D259ECD00701F9F /* OverlayDelegate.swift */,
+			);
+			name = Overlays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEE0E05E1D24968F00701F9F /* Build configuration list for PBXNativeTarget "BandMap" */;
 			buildPhases = (
+				C0BC775C023C671D66B917F3 /* [CP] Check Pods Manifest.lock */,
 				FEE0E0481D24968F00701F9F /* Sources */,
 				FEE0E0491D24968F00701F9F /* Frameworks */,
 				FEE0E04A1D24968F00701F9F /* Resources */,
+				5438F8A724F70D6F014439C7 /* [CP] Embed Pods Frameworks */,
+				40F9DDCD15D74D84CB21CBAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +257,7 @@
 				TargetAttributes = {
 					FEE0E04B1D24968F00701F9F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4XGWNN4LS9;
 					};
 				};
 			};
@@ -122,21 +284,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE0E05A1D24968F00701F9F /* LaunchScreen.storyboard in Resources */,
+				FEE0E0781D249D6A00701F9F /* EventDetailsOverlay.xib in Resources */,
 				FEE0E0571D24968F00701F9F /* Assets.xcassets in Resources */,
+				FEE0E08E1D2597BF00701F9F /* EventBannerOverlay.xib in Resources */,
+				FEE0E0831D24BC2E00701F9F /* json in Resources */,
+				FEE0E0891D2562D200701F9F /* css in Resources */,
+				FEE0E0621D2496A200701F9F /* Podfile in Resources */,
+				FEE0E0681D2497C400701F9F /* BEBAS.TTF in Resources */,
 				FEE0E0551D24968F00701F9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40F9DDCD15D74D84CB21CBAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BandMap/Pods-BandMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5438F8A724F70D6F014439C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BandMap/Pods-BandMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BC775C023C671D66B917F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEE0E0481D24968F00701F9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE0E0521D24968F00701F9F /* ViewController.swift in Sources */,
+				FEE0E0911D2597DD00701F9F /* EventBannerOverlay.swift in Sources */,
+				FEE0E0521D24968F00701F9F /* MainViewController.swift in Sources */,
+				FEE0E0741D249B2400701F9F /* EventObject.swift in Sources */,
+				FEE0E07D1D24B58B00701F9F /* ZipObject.swift in Sources */,
+				FEE0E07F1D24B88800701F9F /* extensions.swift in Sources */,
+				FEE0E07A1D249D7E00701F9F /* EventDetailsOverlay.swift in Sources */,
+				FEE0E0941D259ECD00701F9F /* OverlayDelegate.swift in Sources */,
 				FEE0E0501D24968F00701F9F /* AppDelegate.swift in Sources */,
+				FEE0E0861D25616100701F9F /* enums.swift in Sources */,
+				FEE0E08B1D25631100701F9F /* colors.swift in Sources */,
+				FEE0E0761D249C1800701F9F /* fullReusables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +373,6 @@
 				FEE0E0541D24968F00701F9F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FEE0E0581D24968F00701F9F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEE0E0591D24968F00701F9F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -249,23 +465,31 @@
 		};
 		FEE0E05F1D24968F00701F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132D01BD26140EEDD4DBB7BC /* Pods-BandMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BandMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DesignerJeans.BandMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		FEE0E0601D24968F00701F9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515535BA60E6CC66CE60AEC1 /* Pods-BandMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BandMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DesignerJeans.BandMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +512,7 @@
 				FEE0E0601D24968F00701F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

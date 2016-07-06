@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="BEBAS.TTF">
+            <string>Bebas</string>
+            <string>Bebas</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventDetailsOverlay" customModule="BandMap" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBuyTickets" destination="4ef-pf-rel" id="Jbf-89-zfa"/>
+                <outlet property="btnMoreInfo" destination="EDj-2P-x82" id="lKJ-oC-3gS"/>
+                <outlet property="lblEventDate" destination="bUK-Nw-IiB" id="m9d-wR-0QV"/>
+                <outlet property="lblEventTime" destination="oDh-FA-wsh" id="aZR-7I-EGi"/>
+                <outlet property="lblEventTitle" destination="oxm-f2-Cfa" id="GSz-2K-Nfq"/>
+                <outlet property="lblVenueTitle" destination="1Es-Lj-cd8" id="8TA-rY-z1g"/>
+                <outlet property="viewContainsDetails" destination="leU-1K-P5u" id="acz-7d-Dpv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="overarch">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="121"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ef-pf-rel">
+                    <rect key="frame" x="206" y="77.5" width="150" height="36.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Bebas" family="Bebas" pointSize="19"/>
+                    <state key="normal" title="Buy   tickets">
+                        <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickedButton:" destination="-1" eventType="touchUpInside" id="isx-9Q-3IQ"/>
+                        <action selector="clickedBuyTickets:" destination="-1" eventType="touchUpInside" id="2Cp-0P-8Ek"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDj-2P-x82">
+                    <rect key="frame" x="19" y="77.5" width="150" height="36.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Bebas" family="Bebas" pointSize="19"/>
+                    <state key="normal" title="More   info">
+                        <color key="titleColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickedButton:" destination="-1" eventType="touchUpInside" id="Xep-4d-w3c"/>
+                        <action selector="clickedMoreInfo:" destination="-1" eventType="touchUpInside" id="fSf-vK-yeU"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leU-1K-P5u" userLabel="viewContainsInfo">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="72.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Young Empires" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxm-f2-Cfa">
+                            <rect key="frame" x="8" y="8" width="262.5" height="26.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="at Cain's Ballroom" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Es-Lj-cd8">
+                            <rect key="frame" x="265" y="49" width="102" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="07/04/16" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUK-Nw-IiB">
+                            <rect key="frame" x="267" y="8" width="100" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="cy3-W2-qLe"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:00 - 11:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDh-FA-wsh">
+                            <rect key="frame" x="298" y="35" width="69" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="oxm-f2-Cfa" firstAttribute="height" relation="lessThanOrEqual" secondItem="leU-1K-P5u" secondAttribute="height" multiplier="0.9" id="3Sy-a1-x2V"/>
+                        <constraint firstItem="bUK-Nw-IiB" firstAttribute="top" secondItem="leU-1K-P5u" secondAttribute="top" constant="8" id="6V9-4u-hTY"/>
+                        <constraint firstAttribute="trailing" secondItem="1Es-Lj-cd8" secondAttribute="trailing" constant="8" id="9Dl-bF-6s5"/>
+                        <constraint firstItem="oDh-FA-wsh" firstAttribute="trailing" secondItem="bUK-Nw-IiB" secondAttribute="trailing" id="EAe-uz-k1N"/>
+                        <constraint firstAttribute="trailing" secondItem="bUK-Nw-IiB" secondAttribute="trailing" constant="8" id="Hs9-JD-Ahz"/>
+                        <constraint firstItem="oDh-FA-wsh" firstAttribute="top" secondItem="bUK-Nw-IiB" secondAttribute="bottom" id="Irg-v7-eai"/>
+                        <constraint firstItem="oxm-f2-Cfa" firstAttribute="leading" secondItem="leU-1K-P5u" secondAttribute="leading" constant="8" id="Xv1-Jk-GYT"/>
+                        <constraint firstItem="oxm-f2-Cfa" firstAttribute="top" secondItem="leU-1K-P5u" secondAttribute="top" constant="8" id="aHb-CQ-n0p"/>
+                        <constraint firstItem="1Es-Lj-cd8" firstAttribute="top" secondItem="oDh-FA-wsh" secondAttribute="bottom" id="sd7-IW-0hh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="4ef-pf-rel" firstAttribute="height" secondItem="EDj-2P-x82" secondAttribute="height" id="AeX-5a-jKM"/>
+                <constraint firstItem="EDj-2P-x82" firstAttribute="top" secondItem="leU-1K-P5u" secondAttribute="bottom" constant="5" id="E2r-pl-AnS"/>
+                <constraint firstItem="leU-1K-P5u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IYV-3g-eWI"/>
+                <constraint firstItem="EDj-2P-x82" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.4" id="OT2-Xw-kBG"/>
+                <constraint firstItem="EDj-2P-x82" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.3" id="TY8-fW-V94"/>
+                <constraint firstItem="EDj-2P-x82" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="0.9" id="dMW-8f-pDc"/>
+                <constraint firstItem="4ef-pf-rel" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="1.1" id="fdV-Tu-Nbc"/>
+                <constraint firstItem="leU-1K-P5u" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hTm-MF-ByR"/>
+                <constraint firstItem="leU-1K-P5u" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.6" id="kQY-gO-53P"/>
+                <constraint firstItem="4ef-pf-rel" firstAttribute="width" secondItem="EDj-2P-x82" secondAttribute="width" id="vVF-Pl-9Qr"/>
+                <constraint firstItem="leU-1K-P5u" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="vl9-iI-2Rg"/>
+                <constraint firstItem="oxm-f2-Cfa" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.7" id="wAe-Ec-GIz"/>
+                <constraint firstItem="4ef-pf-rel" firstAttribute="top" secondItem="EDj-2P-x82" secondAttribute="top" id="wcH-xA-bwp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="332.5" y="120.5"/>
+        </view>
+    </objects>
+</document>

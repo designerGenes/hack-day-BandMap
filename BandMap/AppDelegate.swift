@@ -7,15 +7,48 @@
 //
 
 import UIKit
+import SwiftyJSON
+
+
+var globalColor: UIColor = UIColor(hexString: "#673AB7")  // start as purple
+
+func resetGlobalColor() {
+  var colorsList = [UIColor]()
+  colorsList = colors.values.map({$0})
+    let cleanedList = colorsList.filter({$0.hexValue() != globalColor.hexValue() })
+    globalColor = cleanedList[rollDice(cleanedList.count)]
+    print(globalColor.hexValue())
+  
+  
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
+  var zip: ZipObject?
+  
+  func loadJSONObject() -> JSON? {
+    if let path = NSBundle.mainBundle().pathForResource("json/dummy-data", ofType: "json") {
+      do{
+        let data = try NSData(contentsOfURL: NSURL(fileURLWithPath: path), options: NSDataReadingOptions.DataReadingMappedIfSafe)
+        let JSONobj = JSON(data: data)
+        if JSONobj != JSON.null {
+          return JSONobj
+        }
+      } catch {
+        return nil
+      }
+    }
+    return nil
+  }
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+    if let jsonObj = loadJSONObject() {
+        zip = ZipObject(obj: jsonObj)
+    }
+    
     return true
   }
 

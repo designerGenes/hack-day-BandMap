@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (3.4.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DKChainableAnimationKit (1.6.1)
+  - SwiftString (0.5)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - ChameleonFramework/Swift
+  - DKChainableAnimationKit
+  - SwiftString
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DKChainableAnimationKit: e4e605d253ee153cb600efa68f8c97ed118122a7
+  SwiftString: ec9c31c55b2aa147a1154f5f5f8483dc71e3165f
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 0062915c449b10fdcc0c094166ac61120e0f3d1d
+
+COCOAPODS: 1.0.1
